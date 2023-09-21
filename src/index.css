@@ -25,8 +25,12 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   color: var(--color-text);
-  background-color: var(--color-background-900);
+  /* background-color: var(--color-background-900); */
   padding: 2.4rem;
+  background-image: linear-gradient(rgba(36, 42, 46, 0), rgba(36, 42, 46, 0.8)),
+    url("../public/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* ******* */
@@ -39,6 +43,7 @@ body {
   padding: 0 3.2rem;
   background-color: var(--color-primary);
   border-radius: 0.9rem;
+  opacity: 0.9;
 }
 
 .main {
@@ -56,6 +61,7 @@ body {
   border-radius: 0.9rem;
   overflow: scroll;
   position: relative;
+  opacity: 0.9;
 }
 
 .loader {
